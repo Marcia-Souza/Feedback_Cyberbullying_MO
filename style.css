@@ -1,0 +1,90 @@
+index.html * {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+body {
+	font-family: sans-serif;
+	margin: 32px;
+}
+img {
+	max-width: 50%;
+
+}
+
+
+h1 {
+  background-color: rgb(120, 120, 120);
+  background-size: cover;
+  background-image: url("you_matter.png")
+
+
+  border-top: 4px pink;
+  border-bottom: 4px pink;
+
+  color: #fff;
+  font-size: 48px;
+  font-weight: 300;
+  padding: 38px 24px;
+  text-shadow: 4px 4px 4px #000;
+}
+
+	
+	h1, h2 {
+		margin: 42px 0;
+	}
+
+main.grid {
+
+	display.grid;
+	grid-template-columns: 400px 400px;
+	grid-gap: 20px;
+}
+
+
+a {
+    color: #424242;
+  font-size: 20px;
+  padding: 20px 10px;
+  text-decoration: none;
+  text-align: center;
+  margin: 32px;
+}
+
+
+a:hover {
+  background-color: lightgray;
+  border-bottom: 4px gray;
+}
+
+h2 {
+  color: blue;
+  font-size: 32px;
+  margin: 22px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+iframe {
+  display: block;
+  max-width: 100%;
+  margin: 24px auto;
+}
+
+
+
+footer {
+  background-color: rgb(120, 120, 120);
+  color: white;
+  display: block;
+  font-size: 22px;
+  padding: 5px;
+  text-align: center;
+}
+
